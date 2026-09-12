@@ -1,0 +1,5 @@
+p=int(input())
+r=int(input())
+t=int(input())
+ci=p*((r/100 + 1)**t - 1)
+print(f"{ci:.2f}")
